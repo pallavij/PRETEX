@@ -1,0 +1,9 @@
+//Includes everything underneath (including other packages) javax.swing
++javax.swing.
+//Excludes everything underneath java.swing.text
+-javax.swing.text.
+//Excludes any classes within javax.swing.plaf (but not sub-packages)
+-javax.swing.plaf.*
+//Includes the class javax.swing.plaf.ButtonUI
++javax.swing.plaf.ButtonUI
++java.util.ArrayList
